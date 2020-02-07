@@ -16,7 +16,7 @@ const [secondValue, setSecondeValue] = useState('');
 const [errorField, setErrorField] = useState('');
 const [total, setTotal] = useState(firstValue + secondValue);
 
-function calculateTotal() {
+function calculateTotal(){
     let totalNumbers = firstValue + secondValue;
     setTotal(totalNumbers);
     if(totalNumbers<=99999){

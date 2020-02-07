@@ -1,4 +1,4 @@
-import styled from "styled-components/macro";
+import styled from "styled-components";
 import { Form, Row, Button } from "react-bootstrap";
 
 export const Title = styled.h2`
